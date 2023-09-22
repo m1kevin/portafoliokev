@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #ffc106;
+
+}
+
+#conteItenmsCarrusel{                             /*el carrusel*/
+    height: 700px;
+   overflow: hidden;
+
+}
+.itemCarrusel{                              
+    height: 700px;
+    position: relative;
+}
+.tarjetaCarrusel{
+    height: 100%;
+}
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: rgba(75, 64, 64, 0.836);
+}                                                      /*final carrusel*/
+
+img {                                                   /*LOGO*/
+    width: 100%;
+    height: 605px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+#conteItenmsCarrusel img{
+   width: 100%;
+   height: 700px;
+}
+
+ul {                                                     /*menu INICIO DE CODIGO*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff7700;
+  }
+
+/*este*/
+
+  li {
+    
+    display: flex;
+    display: inline-block;
+    
+}
+/*este*/
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 200px;
+    text-decoration: none;
+    border: none;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+li a:hover {
+    background-color: #ffc106;
+}                                                     /*menu, final de codigo*/
+
+div{                                                  /*estitica y definicion de la inf*/
+    column-rule-style: solid;
+    opacity: 1;
+}
+
+#container1{                                       /*inf 1*/
+    float: left;
+    width: 32%;
+    height: 300px;
+    background-color: #e86e1e;
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+}
+#container1 p{
+    color: aliceblue;
+    text-align: left;
+    font-family: monospace;
+}                                         /*inf 1*/
+
+#container2{                                       /*inf 2*/
+    float:left;
+    width: 36%;
+    height: 300px;
+    background-color: #ff8b06;
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+
+}
+#container2 p{
+    color: aliceblue;
+    text-align: left;
+    font-family: monospace;
+}                                       /*inf 2*/
+
+
+
+#container3{                                       /*inf 3*/
+    float: right;
+    width: 32%;
+    height: 300px;
+    background-color: #d4b17a;
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+}
+
+#container3 p{
+    color: aliceblue;
+    text-align: left;
+    font-family: monospace;
+}                                                   /*inf 3*/
+
+#espacio1{
+    width: 100%;
+    height: 50px;
+    background-color: #ffc106 ;
+}
+
+#espacio2{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.itemcolor{
+    width: 100%;
+    height: 50px;
+    background-color: #d4b17a;
+    line-height: 2;
+    transition: width 2s, height 0s;
+}
+.itemcolor:hover{
+    width: 300px;
+    height: 50px;
+}
+
+#Proyectos{     /*parte de protafolio*/
+    width: 100%;
+    height: 600px;
+    float: right;
+    background-color: #ffffff;
+    border: 20px solid #ff8b06;
+    text-align: center;
+}
+#Proyectos h1{
+    font-family: sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+.itemcontenidos{
+    width: 100%;
+    height: 503px;
+    background-color: #afa79e6c;
+}
+
+#espacio3{         
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.itemcolor{
+    width: 100%;
+    height: 50px;
+    background-color:#ffc106 ;
+    line-height: 2;
+    transition: width 2s, height 0s;
+}
+.itemcolor:hover{
+    width: 300px;
+    height: 50px;
+}
+
+#Servicios{
+    width: 100%;
+    height: 500px;
+    background-color: #ff8b06;
+}
+
+#Servicios img{
+    width: 100%;
+    height: 300px;
+}
+#animacion{
+    width: 15%;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+
+#blanco1{
+    width: 15%;
+    height: 100px;
+    background-color: #ff8b06;
+    float: left;
+}
+
+#fotografia{
+    width: 15%;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+
+#texto3{
+    width: 100%;
+    height: 100px;
+    background-color: #d4b17a;
+    float: left;
+    border: 10px solid #d4b17a;
+}
+#texto3 h2{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#texto3 p{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+#blanco2{
+    width: 15%;
+    height: 100px;
+    background-color: #ff8b06;
+    float: left;
+}
+#diseñoGrafico{
+    width: 15%;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+#blanco3{
+    width: 15%;
+    height: 100px;
+    background-color: #ff8b06;
+    float: left;
+}
+#blanco0{
+    width: 100%;
+    height: 50px;
+    background-color: #ff8b06;
+    float: left;
+}
+
+#contacto{
+    width: 100%;
+    height: 300px;
+    background-color: darkgrey;
+    float: left;
+}
+
+#space1{
+    width: 100%;
+    height: 50px;
+    background-color: darkgrey;
+    float: left;
+}
+#space2{
+    width: 3%;
+    height: 200px;
+    background-color: darkgrey;
+    float: left;
+}
+#nosotros{
+    width: 80%;
+    height: 100px;
+    background-color: darkgrey;
+    float: left;
+}
+#space3{
+    width: 3%;
+    height: 200px;
+    background-color: darkgrey;
+    float: right;
+}
+
